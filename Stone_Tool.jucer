@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rVDjBr" name="Stone_Tool" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="jNqHOL" name="Stone_Tool">
+    <FILE id="J5S73W" name="ClickSlider.cpp" compile="1" resource="0" file="limter_/Source/ClickSlider.cpp"/>
+    <FILE id="zDrGg7" name="ClickSlider.h" compile="0" resource="0" file="limter_/Source/ClickSlider.h"/>
+    <GROUP id="{FCD34799-C331-88F5-E242-0D282567260B}" name="Source">
+      <FILE id="AGe5de" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="L53ntk" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="nF3HI1" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="yTTg60" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="LZzndO" name="CircularBuffer.cpp" compile="1" resource="0"
+          file="limter_/Source/CircularBuffer.cpp"/>
+    <FILE id="gdi9Ty" name="png-clipart-gorilla-logo-symbol-brand-gorilla-mammal-animals.png"
+          compile="0" resource="1" file="png-clipart-gorilla-logo-symbol-brand-gorilla-mammal-animals.png"/>
+    <FILE id="bOo6gB" name="monkey.jpg" compile="0" resource="1" file="monkey.jpg"/>
+    <FILE id="aes7Xu" name="Dulethia.ttf" compile="0" resource="1" file="../../Dulethia.ttf"/>
+    <FILE id="AG5C7c" name="CircularBuffer.h" compile="0" resource="0"
+          file="limter_/Source/CircularBuffer.h"/>
+    <FILE id="jUYC20" name="Compressor.cpp" compile="1" resource="0" file="limter_/Source/Compressor.cpp"/>
+    <FILE id="rcy36Q" name="Compressor.h" compile="0" resource="0" file="limter_/Source/Compressor.h"/>
+    <FILE id="CF6Icj" name="CustomLook.cpp" compile="1" resource="0" file="Source/CustomLook.cpp"/>
+    <FILE id="NLZx4f" name="CustomLook.h" compile="0" resource="0" file="Source/CustomLook.h"/>
+    <FILE id="xcL9Ka" name="DelayBuffer.cpp" compile="1" resource="0" file="Source/DelayBuffer.cpp"/>
+    <FILE id="pmk2V7" name="DelayBuffer.h" compile="0" resource="0" file="Source/DelayBuffer.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Stone_Tool"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Stone_Tool"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="E:/DSP/JuceStuff/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="E:/DSP/JuceStuff/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
